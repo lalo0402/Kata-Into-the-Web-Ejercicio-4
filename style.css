@@ -1,0 +1,28 @@
+body{
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 5px solid gray;
+    width: 100%;
+    height: 100%;
+}
+.chico{
+    border: 5px solid gray;
+    height: 50px;
+    background-color: aqua;
+}
+.grande{
+    border: 5px solid gray;
+    height: 90px;
+    background-color: aqua;
+}
+.mediano{
+    display: flex;
+    height: 40px;
+    border: 5px solid gray;
+    background-color: aqua;
+}
